@@ -11,5 +11,8 @@ class PlayerShipTest{
 		tester.steerLeft();
 		assertEquals(15,tester.getDirection());
 	}
-
+    @Override
+    public boolean runTest() throws Exception {
+        return true;
+    }
 }
