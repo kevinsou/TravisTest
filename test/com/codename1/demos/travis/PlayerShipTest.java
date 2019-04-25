@@ -9,7 +9,7 @@ public class PlayerShipTest extends AbstractTest {
 
 /**
  *
- * @author shannah
+ * 
  */
     public boolean runTest() throws Exception {
          PlayerShip tester = new PlayerShip();
