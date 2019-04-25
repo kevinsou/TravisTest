@@ -10,7 +10,7 @@ public class PlayerShipTest extends AbstractTest {
     public boolean runTest() throws Exception {
         PlayerShip tester = new PlayerShip();
         tester.steerLeft();
-        TestUtils.assertBool(1+2==3, "One plus 2 should be 3");
+        TestUtils.assertBool(tester.getDirection()==15, "the direction should be 15");
         return true;
     }
     
