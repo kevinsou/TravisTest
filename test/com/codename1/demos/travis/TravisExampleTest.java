@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.codename1.demos.geoviz;
+package com.codename1.demos.travis;
 
 import com.codename1.testing.AbstractTest;
 import com.codename1.testing.TestUtils;
@@ -12,7 +12,7 @@ import com.codename1.testing.TestUtils;
  *
  * @author shannah
  */
-public class TestOne extends AbstractTest {
+public class TravisExampleTest extends AbstractTest {
 
     public boolean runTest() throws Exception {
         TestUtils.assertBool(1+2==3, "One plus 2 should be 3");
