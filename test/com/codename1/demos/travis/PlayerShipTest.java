@@ -17,7 +17,7 @@ public class PlayerShipTest extends AbstractTest {
          TestUtils.assertBool(tester.getDirection()==15, "the direction should be 15");
          tester.steerRight();
          tester.steerRight();
-         TestUtils.assertBool(tester.getDirection()==345, "the direction should be 345");
+         TestUtils.assertBool(tester.getDirection()==344, "the direction should be 344");
          return true;
      }
     
