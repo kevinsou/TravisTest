@@ -18,4 +18,12 @@ public class PlayerShipTest extends AbstractTest {
          return true;
      }
     
+    public boolean runTest() throws Exception {
+         PlayerShip tester = new PlayerShip();
+         tester.steerRight();
+         TestUtils.assertBool(tester.getDirection()==-15, "the direction should be -15");
+         return true;
+     }
+    
+    
 }
