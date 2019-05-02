@@ -29,7 +29,7 @@ public class PlayerShip extends Ships implements ISteerable {
 	@Override
 	public void steerRight() {
 		// TODO Auto-generated method stub
-		this.direction=direction-15;
+		this.direction=direction-10;
 		if(this.direction<0) {
 			this.direction=direction+359;
 		}
