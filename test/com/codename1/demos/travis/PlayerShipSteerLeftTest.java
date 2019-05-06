@@ -4,7 +4,7 @@ package com.mycompany.a1;
 import com.codename1.testing.AbstractTest;
 import com.codename1.testing.TestUtils;
 
-public class PlayerShipTest extends AbstractTest {
+public class PlayerShipSteerLeftTest extends AbstractTest {
 
 
 /**
