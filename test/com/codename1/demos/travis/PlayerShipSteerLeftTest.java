@@ -14,10 +14,10 @@ public class PlayerShipSteerLeftTest extends AbstractTest {
     public boolean runTest() throws Exception {
          PlayerShip tester = new PlayerShip();
          tester.steerLeft();
-         TestUtils.assertBool(tester.getDirection()==15, "the direction should be 15");
+         TestUtils.assertBool(tester.getDirection()==15, "the direction is" + tester.getDirection() + "when it should be 15");
          tester.setDirection(359);
          tester.steerLeft();
-         TestUtils.assertBool(tester.getDirection()==15, "the direction should be 15");
+         TestUtils.assertBool(tester.getDirection()==15, "the direction is" + tester.getDirection()+ "when it should be 15");
          return true;
      }
     
