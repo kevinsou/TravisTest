@@ -13,7 +13,7 @@ public class PlayerShipTurnMissileLauncherTest extends AbstractTest {
  */
     public boolean runTest() throws Exception {
          PlayerShip tester = new PlayerShip();
-         tester.steerLeft();
+         tester.turnMissileLauncher();
          TestUtils.assertBool(tester.getDirection()==15, "the direction is" + tester.getDirection() + "when it should be 15");
          tester.setDirection(359);
          tester.steerLeft();
