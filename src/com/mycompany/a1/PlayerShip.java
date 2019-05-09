@@ -21,10 +21,12 @@ public class PlayerShip extends Ships implements ISteerable {
 	@Override
 	public void steerLeft() {
 		// TODO Auto-generated method stub
+      this.direction=direction+15;
 	}
 	@Override
 	public void steerRight() {
 		// TODO Auto-generated method stub
+      this.direction=direction-15;
 	}
 	public String toString() {
 		return ("PLAYERSHIP: Location = "+getX()+","+getY()+
